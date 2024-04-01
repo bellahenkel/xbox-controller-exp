@@ -27,7 +27,7 @@ factory = PiGPIOFactory()
 brushless = Servo(27, min_pulse_width = 0.5/1000, max_pulse_width = 2.5/1000, pin_factory = factory)
 servo = Servo(17, min_pulse_width = 0.5/1000, max_pulse_width = 2.5/1000, pin_factory = factory)
 pump = Servo(22, min_pulse_width = 0.5/1000, max_pulse_width = 2.5/1000, pin_factory = factory)
-pump_servo = Servo(23, min_pulse_width = 0.5/1000, max_pulse_width = 2.5/1000, pin_factory = factory)
+pump_servo = Servo(5, min_pulse_width = 0.5/1000, max_pulse_width = 2.5/1000, pin_factory = factory)
 
 
 # This is the main loop
